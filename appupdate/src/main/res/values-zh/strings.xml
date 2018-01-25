@@ -1,0 +1,10 @@
+<resources>
+
+    <string name="app_name"> app_name</string>
+    <string name="title">提示</string>
+    <string name="confirm">确定</string>
+    <string name="updateNow">立即更新</string>
+    <string name="laterSay">稍后更新</string>
+    <string name="ignorable">忽略</string>
+
+</resources>

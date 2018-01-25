@@ -23,6 +23,7 @@ import java.util.TimerTask;
  * Describe apk 下载
  * 主要去处理更新操作
  */
+
 public class ApkLoadUtils {
 
     private DownLoadCallBack loadCallBack;
@@ -34,7 +35,6 @@ public class ApkLoadUtils {
     private int FILE_LONGTH = 0;   //文件长度
     private int CURRENT_LONGTH = 0; //当前下载长度
     private Context mContext;       // activity
-
     //任务定时器
     private Timer mTimer;
     //定时任务
@@ -74,7 +74,6 @@ public class ApkLoadUtils {
             }
         }
         SAVE_FILE = new File(SAVE_PATH + File.separator + FILE_NAME + ".apk");
-
         if (loadCallBack != null) {
             loadCallBack.onStart();
         }
@@ -96,7 +95,7 @@ public class ApkLoadUtils {
                             @Override
                             public void run() {
                                 if (loadCallBack != null) {
-                                    loadCallBack.onFail(new Exception("URL无效"));
+                                    loadCallBack.onFail(new Exception("URL not invalid"));
                                     loadCallBack = null;
                                 }
                             }
@@ -152,7 +151,6 @@ public class ApkLoadUtils {
             }
         }).start();
     }
-
 
     public void installAPK(String apkPath, boolean isForce) {
         try {

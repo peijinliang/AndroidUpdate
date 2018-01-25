@@ -1,5 +1,11 @@
 <resources>
 
-    <string name="app_name">还需要做适配</string>
+    <string name="app_name"> app_name</string>
+    <string name="title">Title</string>
+    <string name="confirm">Confirm</string>
+    <string name="updateNow">update Now</string>
+    <string name="laterSay">Later Say</string>
+    <string name="ignorable">Ignorable</string>
+
 
 </resources>
