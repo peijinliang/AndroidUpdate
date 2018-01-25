@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="E:\AndroidUpdate\appupdate\build\intermediates\bundles\default\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="63af5222ca274d623df6169168eb49eb5c01658a">
+        <dex dex="E:\AndroidUpdate\app\build\intermediates\pre-dexed\debug\classes_dafea32303ef2bfccbf0264db29496ccb2bfd456.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\demo3\AndroidUpdate\appupdate\build\intermediates\bundles\default\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="58cfed1d2c11ccc20b27635413ef99ab6116855f">
+        <dex dex="E:\demo3\AndroidUpdate\app\build\intermediates\pre-dexed\debug\classes_1c733c60447366318abbb12d0ea3cd437da5d689.jar" />
+    </item>
+
+</items>
